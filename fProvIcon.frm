@@ -10,7 +10,6 @@ Begin VB.Form frmLogon
    Icon            =   "fProvIcon.frx":0000
    KeyPreview      =   -1  'True
    LinkTopic       =   "Form1"
-   LockControls    =   -1  'True
    MaxButton       =   0   'False
    MinButton       =   0   'False
    ScaleHeight     =   2520
@@ -21,13 +20,12 @@ Begin VB.Form frmLogon
       Enabled         =   0   'False
       Height          =   1380
       Index           =   1
-      Left            =   4470
+      Left            =   2400
       ScaleHeight     =   1320
       ScaleWidth      =   5460
       TabIndex        =   3
       Tag             =   "14"
-      Top             =   105
-      Visible         =   0   'False
+      Top             =   960
       Width           =   5520
       Begin VB.Label ctlLbls 
          AutoSize        =   -1  'True
@@ -63,7 +61,6 @@ Begin VB.Form frmLogon
       TabIndex        =   0
       Tag             =   "11"
       Top             =   1260
-      Visible         =   0   'False
       Width           =   5520
       Begin VB.Label ctlLbls 
          Alignment       =   1  'Right Justify
